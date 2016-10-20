@@ -1,8 +1,6 @@
-﻿
-
 from html.parser import HTMLParser
 from pprint import pprint
-from urllib import request as download_file, retrieve_url
+from helpers import download_file, retrieve_url
 
 class limetorren2t(object):
     """ Search engine class """
